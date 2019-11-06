@@ -1,0 +1,16 @@
+C:\Users\lujam\source\repos\FirstBlazorApp\DTO\bin\Debug\netcoreapp3.0\DTO.deps.json
+C:\Users\lujam\source\repos\FirstBlazorApp\DTO\bin\Debug\netcoreapp3.0\DTO.dll
+C:\Users\lujam\source\repos\FirstBlazorApp\DTO\bin\Debug\netcoreapp3.0\DTO.pdb
+C:\Users\lujam\source\repos\FirstBlazorApp\DTO\obj\Debug\netcoreapp3.0\DTO.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\FirstBlazorApp\DTO\obj\Debug\netcoreapp3.0\DTO.AssemblyInfoInputs.cache
+C:\Users\lujam\source\repos\FirstBlazorApp\DTO\obj\Debug\netcoreapp3.0\DTO.AssemblyInfo.cs
+C:\Users\lujam\source\repos\FirstBlazorApp\DTO\obj\Debug\netcoreapp3.0\DTO.dll
+C:\Users\lujam\source\repos\FirstBlazorApp\DTO\obj\Debug\netcoreapp3.0\DTO.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DTO\bin\Debug\netcoreapp3.0\DTO.deps.json
+C:\Users\lujam\source\repos\WebDeviceManager\DTO\bin\Debug\netcoreapp3.0\DTO.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DTO\bin\Debug\netcoreapp3.0\DTO.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DTO.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DTO.AssemblyInfoInputs.cache
+C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DTO.AssemblyInfo.cs
+C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DTO.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DTO.pdb

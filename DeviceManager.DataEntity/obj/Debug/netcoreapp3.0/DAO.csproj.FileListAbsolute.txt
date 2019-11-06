@@ -1,0 +1,5 @@
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\bin\Debug\netcoreapp3.0\DAO.deps.json
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\bin\Debug\netcoreapp3.0\DAO.dll
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\obj\Debug\netcoreapp3.0\DAO.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\obj\Debug\netcoreapp3.0\DAO.AssemblyInfoInputs.cache
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\obj\Debug\netcoreapp3.0\DAO.AssemblyInfo.cs

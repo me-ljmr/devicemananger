@@ -1,0 +1,15 @@
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.Facade.deps.json
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.Facade.dll
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.Facade.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.DALRepository.dll
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.DTO.dll
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.dll
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.DALRepository.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\bin\Debug\netcoreapp3.0\DeviceManager.DTO.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\obj\Debug\netcoreapp3.0\DeviceManager.Facade.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\obj\Debug\netcoreapp3.0\DeviceManager.Facade.AssemblyInfoInputs.cache
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\obj\Debug\netcoreapp3.0\DeviceManager.Facade.AssemblyInfo.cs
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\obj\Debug\netcoreapp3.0\DeviceManager.Facade.csproj.CopyComplete
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\obj\Debug\netcoreapp3.0\DeviceManager.Facade.dll
+C:\Users\lujam\source\repos\WebDeviceManager\Facade\obj\Debug\netcoreapp3.0\DeviceManager.Facade.pdb

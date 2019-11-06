@@ -1,0 +1,246 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DAO\\DataEntity.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DALRepository\\DALRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DALRepository\\DALRepository.csproj",
+        "projectName": "DALRepository",
+        "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DALRepository\\DALRepository.csproj",
+        "packagesPath": "C:\\Users\\lujam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DALRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lujam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DAO\\DataEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DAO\\DataEntity.csproj",
+        "projectName": "DataEntity",
+        "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DAO\\DataEntity.csproj",
+        "packagesPath": "C:\\Users\\lujam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lujam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj"
+              },
+              "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\FacadeRepository\\FacadeRepository.csproj": {
+                "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\FacadeRepository\\FacadeRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\lujam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lujam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\FacadeRepository\\FacadeRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\FacadeRepository\\FacadeRepository.csproj",
+        "projectName": "FacadeRepository",
+        "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\FacadeRepository\\FacadeRepository.csproj",
+        "packagesPath": "C:\\Users\\lujam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\FacadeRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lujam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DALRepository\\DALRepository.csproj": {
+                "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DALRepository\\DALRepository.csproj"
+              },
+              "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\lujam\\source\\repos\\WebDeviceManager\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

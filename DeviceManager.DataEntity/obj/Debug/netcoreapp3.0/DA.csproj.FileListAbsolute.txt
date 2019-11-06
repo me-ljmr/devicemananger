@@ -1,0 +1,10 @@
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\bin\Debug\netcoreapp3.0\DA.deps.json
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\bin\Debug\netcoreapp3.0\DA.runtimeconfig.json
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\bin\Debug\netcoreapp3.0\DA.runtimeconfig.dev.json
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\bin\Debug\netcoreapp3.0\DA.dll
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\bin\Debug\netcoreapp3.0\DA.pdb
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\obj\Debug\netcoreapp3.0\DA.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\obj\Debug\netcoreapp3.0\DA.AssemblyInfoInputs.cache
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\obj\Debug\netcoreapp3.0\DA.AssemblyInfo.cs
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\obj\Debug\netcoreapp3.0\DA.dll
+C:\Users\lujam\source\repos\FirstBlazorApp\DAO\obj\Debug\netcoreapp3.0\DA.pdb

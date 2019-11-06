@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceManager.DALRepository\DeviceManager.DALRepository.csproj" />
+    <ProjectReference Include="..\DeviceManager.DataEntity\DeviceManager.DataEntity.csproj" />
+    <ProjectReference Include="..\DeviceManager.FacadeRepository\DeviceManager.FacadeRepository.csproj" />
+  </ItemGroup>
+
+</Project>

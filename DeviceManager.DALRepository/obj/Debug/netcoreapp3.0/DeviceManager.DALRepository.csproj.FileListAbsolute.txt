@@ -1,0 +1,11 @@
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\bin\Debug\netcoreapp3.0\DeviceManager.DALRepository.deps.json
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\bin\Debug\netcoreapp3.0\DeviceManager.DALRepository.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\bin\Debug\netcoreapp3.0\DeviceManager.DALRepository.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\bin\Debug\netcoreapp3.0\DeviceManager.DTO.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\bin\Debug\netcoreapp3.0\DeviceManager.DTO.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\obj\Debug\netcoreapp3.0\DeviceManager.DALRepository.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\obj\Debug\netcoreapp3.0\DeviceManager.DALRepository.AssemblyInfoInputs.cache
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\obj\Debug\netcoreapp3.0\DeviceManager.DALRepository.AssemblyInfo.cs
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\obj\Debug\netcoreapp3.0\DeviceManager.DALRepository.csproj.CopyComplete
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\obj\Debug\netcoreapp3.0\DeviceManager.DALRepository.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DALRepository\obj\Debug\netcoreapp3.0\DeviceManager.DALRepository.pdb
