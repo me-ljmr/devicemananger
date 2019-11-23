@@ -10,7 +10,8 @@ namespace DeviceManager.DAL
     {
         private readonly IApplicationServices appServices;
 
-        public DeviceLogDAL( IApplicationServices appServices) {
+        public DeviceLogDAL(IApplicationServices appServices)
+        {
             this.appServices = appServices;
         }
         public string GetLogModeString(int mode)
@@ -55,7 +56,8 @@ namespace DeviceManager.DAL
         {
             try
             {
-                using (var db = new AttendanceContext(appServices)) {
+                using (var db = new AttendanceContext(appServices))
+                {
 
                     var attLog = new AttendanceLog()
                     {
@@ -65,12 +67,12 @@ namespace DeviceManager.DAL
                         TDATE = data.LogDate,
                         TDATE_OUT = null,
                         dt_bin = null,
-                        dt_bout  = null,
-                        DT_LIN= null,
+                        dt_bout = null,
+                        DT_LIN = null,
                         DT_LOUT = null,
                         DT_TOUT = null,
                         INREMARKS = appServices.AppSettings.VerifyMode[data.InVerifyMode]
-                         
+
                     };
                     db.AttendanceLogs.Add(attLog);
                     db.SaveChanges();
@@ -84,16 +86,17 @@ namespace DeviceManager.DAL
             }
             return false;
         }
-        public bool CheckOut(int attID, AttendanceLogDTO data) {
+        public bool CheckOut(int attID, AttendanceLogDTO data)
+        {
             try
             {
                 using (var db = new AttendanceContext(appServices))
                 {
-                    var attLog = db.AttendanceLogs.Where(alog =>alog.AttnLogId == attID).FirstOrDefault();
+                    var attLog = db.AttendanceLogs.Where(alog => alog.AttnLogId == attID).FirstOrDefault();
 
                     attLog.OUTMODE = appServices.AppSettings.LogMode[data.OutMode];
                     attLog.OUTTIME = data.LogOutTime;
-                    attLog.TDATE_OUT =  data.LogOutDate;
+                    attLog.TDATE_OUT = data.LogOutDate;
                     attLog.OUTREMARKS = appServices.AppSettings.VerifyMode[data.OutVerifyMode];
                     db.SaveChanges();
                     return true;
@@ -113,27 +116,28 @@ namespace DeviceManager.DAL
                 using (var db = new AttendanceContext(appServices))
                 {
 
-                    var s = db.AttendanceLogs.Where(e => e.TDATE.Date ==  date.Date
-                        && e.EMP_ID == EmployeeId).OrderByDescending(r=>r.AttnLogId).FirstOrDefault();
-                    if (s == null) {
+                    var s = db.AttendanceLogs.Where(e => e.TDATE.Date == date.Date
+                        && e.EMP_ID == EmployeeId).OrderByDescending(r => r.AttnLogId).FirstOrDefault();
+                    if (s == null)
+                    {
                         return null;
                     }
                     return new AttendanceLogDTO()
-                        {
-                            ID = s.AttnLogId,
-                            EmployeeId = s.EMP_ID,
-                            LogDate = (s.TDATE),
-                            LogTime = s.INTIME,
-                            InMode = GetLogModeIndex(s.INMODE),
-                            InVerifyMode = GetVerifyModeIndex(s.INREMARKS),
+                    {
+                        ID = s.AttnLogId,
+                        EmployeeId = s.EMP_ID,
+                        LogDate = (s.TDATE),
+                        LogTime = s.INTIME,
+                        InMode = GetLogModeIndex(s.INMODE),
+                        InVerifyMode = GetVerifyModeIndex(s.INREMARKS),
 
-                            LogOutDate = (s.TDATE_OUT),
-                            LogOutTime = s.OUTTIME,
-                            OutMode = GetLogModeIndex(s.OUTMODE),
-                            OutVerifyMode = GetVerifyModeIndex(s.OUTREMARKS)
+                        LogOutDate = (s.TDATE_OUT),
+                        LogOutTime = s.OUTTIME,
+                        OutMode = GetLogModeIndex(s.OUTMODE),
+                        OutVerifyMode = GetVerifyModeIndex(s.OUTREMARKS)
 
-                        };
-                      
+                    };
+
                 }
             }
             catch (Exception ex)
@@ -146,7 +150,7 @@ namespace DeviceManager.DAL
         public bool SaveRawDeviceLog(RawLogDTO data)
         {
             try
-            { 
+            {
                 using (var db = new AttendanceContext(appServices))
                 {
                     db.RawLogs.Add(new DataEntity.Models.RawLog()
@@ -163,12 +167,13 @@ namespace DeviceManager.DAL
                     return true;
                 }
             }
-            catch (Exception ex) {
-                throw ex ;
+            catch (Exception ex)
+            {
+                throw ex;
             }
-            
-            
+
+
         }
-        
+
     }
 }

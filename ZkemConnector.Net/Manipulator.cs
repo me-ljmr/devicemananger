@@ -6,7 +6,16 @@ namespace ZkemConnector.NET
 {
     public class DeviceManipulator
     {
+        private static DeviceManipulator _deviceManipulator;
+        public static DeviceManipulator Instance
+        {
+            get
+            {
+                if (_deviceManipulator == null) _deviceManipulator = new DeviceManipulator();
+                return _deviceManipulator;
+            }
 
+        }
         public ICollection<UserInfo> GetAllUserInfo(ZKTecoDevice objZkeeper, int machineNumber)
         {
             string sdwEnrollNumber = string.Empty, sName = string.Empty, sPassword = string.Empty, sTmpData = string.Empty;

@@ -59,21 +59,22 @@
   <ItemGroup>
     <Compile Include="ClearFlag.cs" />
     <Compile Include="Constants.cs" />
-    <Compile Include="DeviceUtility.cs" />
-    <Compile Include="DeviceLogForm.cs">
+    <Compile Include="DataHolders\LogData.cs" />
+    <Compile Include="DataHolders\MachineInfo.cs" />
+    <Compile Include="Manipulator.cs" />
+    <Compile Include="DataHolders\ResponseData.cs" />
+    <Compile Include="DataHolders\UserIDInfo.cs" />
+    <Compile Include="DataHolders\UserInfo.cs" />
+    <Compile Include="DeviceManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeviceLogForm.Designer.cs">
-      <DependentUpon>DeviceLogForm.cs</DependentUpon>
+    <Compile Include="DeviceManager.Designer.cs">
+      <DependentUpon>DeviceManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogData.cs" />
-    <Compile Include="MachineInfo.cs" />
-    <Compile Include="Manipulator.cs" />
+    <Compile Include="DeviceUtility.cs" />
+    <Compile Include="NetworkMonitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResponseData.cs" />
-    <Compile Include="UserIDInfo.cs" />
-    <Compile Include="UserInfo.cs" />
     <Compile Include="ZKTecoDevice.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -88,13 +89,16 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DeviceLogForm.resx">
-      <DependentUpon>DeviceLogForm.cs</DependentUpon>
+    <EmbeddedResource Include="DeviceManager.resx">
+      <DependentUpon>DeviceManager.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="icons\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

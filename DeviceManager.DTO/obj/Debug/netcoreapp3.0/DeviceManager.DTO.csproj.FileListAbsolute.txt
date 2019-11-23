@@ -6,3 +6,11 @@ C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DeviceM
 C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DeviceManager.DTO.AssemblyInfo.cs
 C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DeviceManager.DTO.dll
 C:\Users\lujam\source\repos\WebDeviceManager\DTO\obj\Debug\netcoreapp3.0\DeviceManager.DTO.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.DTO\bin\Debug\netcoreapp3.0\DeviceManager.DTO.deps.json
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.DTO\bin\Debug\netcoreapp3.0\DeviceManager.DTO.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.DTO\bin\Debug\netcoreapp3.0\DeviceManager.DTO.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.DTO\obj\Debug\netcoreapp3.0\DeviceManager.DTO.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.DTO\obj\Debug\netcoreapp3.0\DeviceManager.DTO.AssemblyInfoInputs.cache
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.DTO\obj\Debug\netcoreapp3.0\DeviceManager.DTO.AssemblyInfo.cs
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.DTO\obj\Debug\netcoreapp3.0\DeviceManager.DTO.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.DTO\obj\Debug\netcoreapp3.0\DeviceManager.DTO.pdb

@@ -2,8 +2,6 @@
 using DeviceManager.DTO;
 using DeviceManager.FacadeRepository;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DeviceManager.Facade
 {
@@ -16,12 +14,12 @@ namespace DeviceManager.Facade
         private readonly bool isMultiShift;
 
         private readonly IApplicationServices appServices;
-        public DeviceLogFacade(IDeviceLogDAL deviceLog,IApplicationServices appServices)
+        public DeviceLogFacade(IDeviceLogDAL deviceLog, IApplicationServices appServices)
         {
             this.appServices = appServices;
             this.deviceLog = deviceLog;
-            var dataExtractionMode= appServices.AppSettings.DataExtractionMode;
-            isSingleShift = dataExtractionMode.Split(':')[0].ToUpper() =="SINGLE";
+            var dataExtractionMode = appServices.AppSettings.DataExtractionMode;
+            isSingleShift = dataExtractionMode.Split(':')[0].ToUpper() == "SINGLE";
             isMultiShift = !isSingleShift;
             extractionMode = dataExtractionMode.Split(':')[1].ToUpper();
         }
@@ -37,12 +35,13 @@ namespace DeviceManager.Facade
 
             if (isSingleShift)
             {
-                if (extractionMode == SingleShiftExtractionModes.FirstInLastOut 
+                if (extractionMode == SingleShiftExtractionModes.FirstInLastOut
                     || extractionMode == SingleShiftExtractionModes.FirstInFirstOut)
                 {
                     if (attLog == null)
                         logData.InOutMode = (int)LogModeEnum.CheckIn;
-                    else {
+                    else
+                    {
                         if (extractionMode == SingleShiftExtractionModes.FirstInFirstOut)
                         {
                             if (attLog.LogOutDate != null)
@@ -54,10 +53,10 @@ namespace DeviceManager.Facade
                         else if (extractionMode == SingleShiftExtractionModes.FirstInLastOut)
                         {
                             logData.InOutMode = (int)LogModeEnum.CheckOut;
-                        } 
-                    } 
+                        }
+                    }
                 }
-                 
+
                 if ((LogModeEnum)logData.InOutMode == LogModeEnum.CheckOut)
                 {
                     // for this to work ./ there should already be a record
@@ -67,7 +66,7 @@ namespace DeviceManager.Facade
                         attLog.OutMode = logData.InOutMode;
                         attLog.OutVerifyMode = logData.VerifyMode;
                         attLog.LogOutDate = logData.LogDate;
-                        attLog.LogOutTime = logData.LogTime; 
+                        attLog.LogOutTime = logData.LogTime;
                         deviceLog.CheckOut(attLog.ID, attLog);
                         return true;
                     }

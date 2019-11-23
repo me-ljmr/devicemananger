@@ -11,3 +11,16 @@ C:\Users\lujam\source\repos\WebDeviceManager\FacadeRepository\obj\Debug\netcorea
 C:\Users\lujam\source\repos\WebDeviceManager\FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.csproj.CopyComplete
 C:\Users\lujam\source\repos\WebDeviceManager\FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.dll
 C:\Users\lujam\source\repos\WebDeviceManager\FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\bin\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.deps.json
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\bin\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\bin\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\bin\Debug\netcoreapp3.0\DeviceManager.DALRepository.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\bin\Debug\netcoreapp3.0\DeviceManager.DTO.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\bin\Debug\netcoreapp3.0\DeviceManager.DALRepository.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\bin\Debug\netcoreapp3.0\DeviceManager.DTO.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.AssemblyInfoInputs.cache
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.AssemblyInfo.cs
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.csproj.CopyComplete
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.dll
+C:\Users\lujam\source\repos\WebDeviceManager\DeviceManager.FacadeRepository\obj\Debug\netcoreapp3.0\DeviceManager.FacadeRepository.pdb

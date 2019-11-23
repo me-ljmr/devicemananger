@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using DeviceManager.DAL;
 using DeviceManager.DALRepository;
 using DeviceManager.DTO;
@@ -9,7 +5,6 @@ using DeviceManager.Facade;
 using DeviceManager.FacadeRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,7 +26,7 @@ namespace DeviceManager.API
             services.AddControllersWithViews();
             var configSection = Configuration.GetSection("AppSettings");
             services.Configure<AppSettingsDTO>(options => configSection.Bind(options));
-               
+
             //DAL
             services.AddSingleton<IDeviceDAL, DeviceDAL>();
             services.AddSingleton<IDeviceLogDAL, DeviceLogDAL>();

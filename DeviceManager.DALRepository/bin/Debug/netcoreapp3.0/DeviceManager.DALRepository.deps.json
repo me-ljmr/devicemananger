@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "DeviceManager.DALRepository/1.0.0": {
+        "dependencies": {
+          "DeviceManager.DTO": "1.0.0"
+        },
+        "runtime": {
+          "DeviceManager.DALRepository.dll": {}
+        }
+      },
+      "DeviceManager.DTO/1.0.0": {
+        "runtime": {
+          "DeviceManager.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeviceManager.DALRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeviceManager.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

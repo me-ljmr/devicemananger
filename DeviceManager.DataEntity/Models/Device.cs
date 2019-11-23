@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace DeviceManager.DataEntity.Models
 {
-    [Table("Tbl_DeviceMaster", Schema ="dbo")]
+    [Table("Tbl_DeviceMaster", Schema = "dbo")]
     public class DeviceMaster
     {
         [Required, Key]
@@ -32,7 +30,7 @@ namespace DeviceManager.DataEntity.Models
         [MaxLength(50)]
         public String dfversion { get; set; }
     }
-    
 
-     
+
+
 }

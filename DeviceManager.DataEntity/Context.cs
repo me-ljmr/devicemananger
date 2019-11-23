@@ -1,11 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text; 
-using DeviceManager.DataEntity.Models;
+﻿using DeviceManager.DataEntity.Models;
 using DeviceManager.DTO;
-using Microsoft.Extensions.Options;
 using DeviceManager.FacadeRepository;
+using Microsoft.EntityFrameworkCore;
 
 namespace DeviceManager.DAL
 {
@@ -14,7 +10,7 @@ namespace DeviceManager.DAL
 
         public IApplicationServices _appServices;
         public readonly AppSettingsDTO appSettings;
-        public AttendanceContext( IApplicationServices appServices)
+        public AttendanceContext(IApplicationServices appServices)
         {
             _appServices = appServices;
             appSettings = appServices.AppSettings;

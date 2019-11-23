@@ -1,0 +1,17 @@
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\ZkemConnector.Net.exe.config
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\ZkemConnector.Net.exe
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\ZkemConnector.Net.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\RestSharp.dll
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\RestSharp.Serializers.Newtonsoft.Json.dll
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\bin\Debug\RestSharp.xml
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\obj\Debug\ZkemConnector.Net.csprojAssemblyReference.cache
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\obj\Debug\ZkemConnector.Net.csproj.ResolveComReference.cache
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\obj\Debug\ZkemConnector.Net.csproj.GenerateResource.cache
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\obj\Debug\ZkemConnector.Net.csproj.CopyComplete
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\obj\Debug\ZkemConnector.Net.exe
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\obj\Debug\ZkemConnector.Net.pdb
+C:\Users\lujam\source\repos\WebDeviceManager\ZkemConnector.Net\obj\Debug\ZkemConnector.NET.DeviceManager.resources

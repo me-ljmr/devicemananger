@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DeviceManager.DTO
+﻿namespace DeviceManager.DTO
 {
     public class DeviceDTO
     {
@@ -8,7 +6,7 @@ namespace DeviceManager.DTO
         public string DeviceName { get; set; }
         public string IPAddress { get; set; }
         public string PortNo { get; set; }
-        public int ConnectionMode { get; set; }  
+        public int ConnectionMode { get; set; }
         public int MachineNumber { get; set; }
 
     }

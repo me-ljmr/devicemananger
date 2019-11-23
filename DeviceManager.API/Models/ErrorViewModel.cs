@@ -1,5 +1,3 @@
-using System;
-
 namespace DeviceManager.API.Models
 {
     public class ErrorViewModel

@@ -4,17 +4,17 @@ using System;
 using zkemkeeper;
 namespace ZkemConnector.NET
 {
-    public class ZKTecoDevice: IZKEM
+    public class ZKTecoDevice : IZKEM
     {
-        Action<object, string> RaiseDeviceEvent;
+        Action<object, string, int> RaiseDeviceEvent;
         public bool DeviceStatus { get; set; }
         public int DeviceID { get; set; }
-        public ZKTecoDevice(Action<object, string> RaiseDeviceEvent)
+        public ZKTecoDevice(Action<object, string, int> RaiseDeviceEvent)
         { this.RaiseDeviceEvent = RaiseDeviceEvent; }
 
 
         CZKEM objCZKEM = new CZKEM();
-         
+
         #region 'What we will be using'
 
         public bool BatchUpdate(int dwMachineNumber)
@@ -47,9 +47,10 @@ namespace ZkemConnector.NET
 
         public bool Connect_Net(string IPAdd, int Port)
         {
+            objCZKEM.Disconnect();
             if (objCZKEM.Connect_Net(IPAdd, Port))
             {
-                //65535, 32767
+                //65535, 32767 
                 if (objCZKEM.RegEvent(1, 32767))
                 {
                     // [ Register your events here ]
@@ -60,7 +61,7 @@ namespace ZkemConnector.NET
                     objCZKEM.OnFinger += ObjCZKEM_OnFinger;
                     objCZKEM.OnAttTransactionEx += new _IZKEMEvents_OnAttTransactionExEventHandler(zkemClient_OnAttTransactionEx);
                 }
-                RaiseDeviceEvent(this, DeviceUtility.acx_Connect);
+                RaiseDeviceEvent(this, DeviceUtility.acx_Connect, DeviceID);
                 return true;
             }
             return false;
@@ -74,18 +75,18 @@ namespace ZkemConnector.NET
 
         private void ObjCZKEM_OnConnected()
         {
-            RaiseDeviceEvent(this, DeviceUtility.acx_Connect);
+            RaiseDeviceEvent(this, DeviceUtility.acx_Connect, DeviceID);
         }
 
         private void zkemClient_OnAttTransactionEx(string EnrollNumber, int IsInValid, int AttState, int VerifyMethod, int Year, int Month, int Day, int Hour, int Minute, int Second, int WorkCode)
         {
-            RaiseDeviceEvent(new LogData(){ EnrollNumber= EnrollNumber, AttState= AttState, VerifyMethod= VerifyMethod, Tdate = new DateTime(Year, Month, Day, Hour, Minute, Second) }, DeviceUtility.acx_Transaction);
+            RaiseDeviceEvent(new LogData() { EnrollNumber = EnrollNumber, AttState = AttState, VerifyMethod = VerifyMethod, Tdate = new DateTime(Year, Month, Day, Hour, Minute, Second) }, DeviceUtility.acx_Transaction, DeviceID);
         }
 
         void objCZKEM_OnDisConnected()
         {
             // Implementing the Event
-            RaiseDeviceEvent(this, DeviceUtility.acx_Disconnect);
+            RaiseDeviceEvent(this, DeviceUtility.acx_Disconnect, DeviceID);
         }
 
 
@@ -98,6 +99,7 @@ namespace ZkemConnector.NET
         {
             return objCZKEM.DisableDeviceWithTimeOut(dwMachineNumber, TimeOutSec);
         }
+
 
 
         public bool EnableDevice(int dwMachineNumber, bool bFlag)

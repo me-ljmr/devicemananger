@@ -1,7 +1,5 @@
 ﻿using DeviceManager.DTO;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DeviceManager.DALRepository
 {
@@ -9,7 +7,7 @@ namespace DeviceManager.DALRepository
     {
         public bool SaveRawDeviceLog(RawLogDTO data);
         public bool CheckIn(AttendanceLogDTO data);
-        public bool CheckOut(int attId,AttendanceLogDTO data);
+        public bool CheckOut(int attId, AttendanceLogDTO data);
         public AttendanceLogDTO GetAttendanceLog(DateTime date, int EmployeeId);
     }
 }

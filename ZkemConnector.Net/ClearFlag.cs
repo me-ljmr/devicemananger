@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ZkemConnector.NET
+﻿namespace ZkemConnector.NET
 {
     public enum ClearFlag
     {

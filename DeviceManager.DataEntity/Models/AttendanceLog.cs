@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace DeviceManager.DataEntity.Models
 {
-    [Table("tbl_emp_attn_log",Schema ="dbo")]
+    [Table("tbl_emp_attn_log", Schema = "dbo")]
     public class AttendanceLog
     {
         [Required, Key]

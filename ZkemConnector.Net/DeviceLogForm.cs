@@ -26,6 +26,9 @@ namespace ZkemConnector.NET
         private string token = string.Empty;
         private IRestClient client = null;
         private bool start;
+
+ 
+
         private bool Start
         {
             get {
@@ -65,7 +68,7 @@ namespace ZkemConnector.NET
         }
         private void AddLog(string text, string type="INFO") {
             ListViewItem litem;
-            this.Invoke(new MethodInvoker(delegate ()
+            Invoke(new MethodInvoker(delegate ()
             {
                 litem = logList.Items.Add(text);
                 if (type == "SUCCESS")
@@ -98,7 +101,7 @@ namespace ZkemConnector.NET
             } 
 
         }
-        private void RaiseDeviceEvent(object sender, string actionType)
+        private void RaiseDeviceEvent(object sender, string actionType, int deviceId)
         {
             switch (actionType)
             {
@@ -182,7 +185,7 @@ namespace ZkemConnector.NET
                         {
                             AddLog($"Loading Device - {x.DeviceName} - {x.IPAddress}:{x.PortNo}");
                             //LoadDevices(x);
-                            zkDevices[cnt] = new ZKTecoDevice((sender, actionType)=> {
+                            zkDevices[cnt] = new ZKTecoDevice((sender, actionType,deviceId)=> {
                                 if (actionType == DeviceUtility.acx_Transaction) {
                                     AddLog($"Card Swiped");
                                 }

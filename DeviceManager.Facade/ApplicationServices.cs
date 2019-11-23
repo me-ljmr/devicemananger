@@ -1,9 +1,6 @@
 ﻿using DeviceManager.DTO;
 using DeviceManager.FacadeRepository;
 using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DeviceManager.Facade
 {
@@ -11,8 +8,9 @@ namespace DeviceManager.Facade
     {
         public AppSettingsDTO AppSettings { get; set; }
 
-        public ApplicationServices() {
-           
+        public ApplicationServices()
+        {
+
         }
         public ApplicationServices(IOptions<AppSettingsDTO> appSettings)
         {
